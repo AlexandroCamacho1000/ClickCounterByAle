@@ -1,0 +1,57 @@
+/* Button.css */
+
+/* ============================= */
+/*      BASE COLORS & VARS       */
+/* ============================= */
+
+:root {
+  --main-blue: #0d1b2a;
+  --secondary-blue: #1b263b;
+  --main-pink: #ff00a0;
+  --secondary-pink: #ff66b2;
+  --white: #f1f5f9;
+}
+
+/* ============================= */
+/*        GENERAL BUTTONS        */
+/* ============================= */
+
+button {
+  font-family: 'Poppins', 'Segoe UI', sans-serif;
+  font-size: 1.1rem; /* text size */
+  font-weight: 600;
+  padding: 14px 32px;
+  border-radius: 14px;
+  cursor: pointer;
+  border: 2px solid var(--main-pink); 
+  transition: none; 
+}
+
+/* ============================= */
+/*         BUTTON TYPES          */
+/* ============================= */
+
+.click-button,
+.reset-button {
+  background: linear-gradient(135deg, var(--main-blue), var(--secondary-blue));
+  color: var(--white);
+  box-shadow: 0 6px 20px rgba(255, 0, 160, 0.25); 
+}
+
+/* ============================= */
+/*          HOVER EFFECT         */
+/* ============================= */
+
+.click-button:hover,
+.reset-button:hover {
+  background: linear-gradient(135deg, var(--secondary-blue), var(--main-blue));
+  box-shadow: 0 8px 25px rgba(255, 0, 160, 0.35); 
+}
+
+/* ============================= */
+/*         CLICK EFFECT          */
+/* ============================= */
+
+button:active {
+  opacity: 0.9; 
+}

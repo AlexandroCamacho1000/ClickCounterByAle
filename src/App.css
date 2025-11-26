@@ -1,0 +1,112 @@
+/* App.css */
+
+/* ============================= */
+/*        BASE COLOR PALETTE     */
+/* ============================= */
+
+:root {
+  --main-blue: #0d1b2a; 
+  --secondary-blue: #1b263b; 
+  --soft-blue: #2c3e5c; 
+
+  --main-pink: #ff00a0; 
+  --secondary-pink: #ff66b2; 
+  --light-pink: #ff99cc; 
+
+  --white: #f1f5f9; /* white */
+}
+
+/* ============================= */
+/*            BACKGROUND         */
+/* ============================= */
+
+.App {
+  text-align: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, var(--main-blue), var(--secondary-blue));
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+  position: relative;
+}
+
+/* ============================= */
+/*        MAIN CONTAINER         */
+/* ============================= */
+
+.main-container {
+  background: linear-gradient(145deg, rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.12));
+
+  padding: 90px 60px 50px 60px;
+  border-radius: 30px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.6);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+
+  position: relative;
+  z-index: 1;
+}
+
+/* ============================= */
+/*            LOGO               */
+/* ============================= */
+
+.logo-container {
+  position: absolute;
+  top: calc(50% - 250px);
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+  pointer-events: none;
+}
+
+.logo {
+  width: 150px;
+  height: auto;
+  filter: brightness(1.15) contrast(1.1); 
+}
+
+/* ============================= */
+/*            COUNTER            */
+/* ============================= */
+
+.click-counter {
+  font-size: 3.5rem; 
+  font-weight: 800;
+  color: var(--main-pink);
+  margin-bottom: 20px;
+  text-shadow: 0 2px 6px rgba(255, 0, 160, 0.4); 
+}
+
+/* ============================= */
+/*            BUTTONS            */
+/* ============================= */
+
+.button {
+  padding: 14px 35px;
+  font-size: 1.25rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 16px;
+  cursor: pointer;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.2); 
+  color: white;
+}
+
+.click-button {
+  background: linear-gradient(135deg, var(--main-blue), var(--secondary-blue)); 
+}
+
+.reset-button {
+  background: linear-gradient(135deg, var(--main-pink), var(--secondary-pink)); 
+}
