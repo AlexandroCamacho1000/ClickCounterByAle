@@ -1,70 +1,90 @@
-# Getting Started with Create React App
+<img width="100" height="100" alt="alesoft" src="https://github.com/user-attachments/assets/c92173c2-6004-4c9b-9ef5-5641fddbdff2" />
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 🌟 Click Counter App
 
-## Available Scripts
+## Overview
+The **Click Counter App** is a web application built with React that allows users to count and track clicks in real time. It provides a smooth and interactive experience, using clean architecture and reusable components for a scalable and maintainable structure.
 
-In the project directory, you can run:
+## Technologies Used
+### Frontend
+- ⚛️ React.js
+- 📝 JavaScript (ES6+)
+- 🌐 HTML5
+- 🎨 CSS3
 
-### `npm start`
+### Tools
+- 🗂 Git & GitHub
+- 🖥 Visual Studio Code
+- 📦 Node.js
+- ⚡ npm
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Installation Guide (Run Locally)
+Follow these steps to run the project on your local machine:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Clone the repository  
+`git clone https://github.com/AlexandroCamacho1000/ClickCounterApp.git`
 
-### `npm test`
+2. Navigate to the project folder  
+`cd ClickCounterApp`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3. Install dependencies  
+`npm install`
 
-### `npm run build`
+4. Start the development server  
+`npm start`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+5. Open the project in your browser  
+`http://localhost:3000`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The app should now be running locally. 🚀
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Author
+Developed by: Alejandro Camacho  
+GitHub: AlexandroCamacho1000 👨‍💻
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# 🌟 Aplicación Contador de Clics
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Descripción General
+La **Aplicación Contador de Clics** es una aplicación web desarrollada con React que permite a los usuarios contar y registrar clics en tiempo real. Ofrece una experiencia interactiva fluida, utilizando una arquitectura limpia y componentes reutilizables para una estructura escalable y fácil de mantener.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Tecnologías Utilizadas
+### Frontend
+- ⚛️ React.js
+- 📝 JavaScript (ES6+)
+- 🌐 HTML5
+- 🎨 CSS3
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Herramientas
+- 🗂 Git y GitHub
+- 🖥 Visual Studio Code
+- 📦 Node.js
+- ⚡ npm
 
-## Learn More
+## Guía de Instalación (Ejecutar Localmente)
+Sigue estos pasos para ejecutar el proyecto en tu máquina local:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. Clona el repositorio  
+`git clone https://github.com/AlexandroCamacho1000/ClickCounterApp.git`
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+2. Entra a la carpeta del proyecto  
+`cd ClickCounterApp`
 
-### Code Splitting
+3. Instala las dependencias  
+`npm install`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+4. Inicia el servidor de desarrollo  
+`npm start`
 
-### Analyzing the Bundle Size
+5. Abre el proyecto en tu navegador  
+`http://localhost:3000`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+La aplicación quedará ejecutándose localmente. 🚀
 
-### Making a Progressive Web App
+## Autor
+Desarrollado por: Alejandro Camacho  
+GitHub: AlexandroCamacho1000 👨‍💻
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+<img width="431" height="585" alt="image" src="https://github.com/user-attachments/assets/ae27ab50-2864-4fee-9f4c-3a6ef5642bd2" />
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
